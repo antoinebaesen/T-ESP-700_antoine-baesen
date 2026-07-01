@@ -23,5 +23,5 @@ Causette se distingue par trois priorités : l’accessibilité, la confidential
 
 Le projet est présenté sur un site statique :
 
-[Voir le site du projet Causette](https://localcare.github.io/)
+[Voir le site du projet Causette](https://antoinebaesen.github.io/T-ESP-700_antoine-baesen/)
 
