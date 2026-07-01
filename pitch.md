@@ -1,0 +1,1 @@
+Causette est un assistant conversationnel basé sur un modèle de langage exécuté entièrement en local. Il est destiné aux maisons de retraite, aux EHPAD et toutes personnes âgées isolées. Son objectif est d’offrir une présence d’écoute, un dialogue bienveillant et un soutien émotionnel, tout en garantissant la confidentialité des échanges.
