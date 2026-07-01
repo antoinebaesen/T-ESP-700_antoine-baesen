@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Recrutement - Brin de Présence</title>
+    <title>Recrutement - Causette</title>
     <meta
       name="description"
-      content="Page de recrutement du projet Brin de Présence, assistant conversationnel local pour personnes âgées et personnel soignant."
+      content="Page de recrutement du projet Causette, assistant conversationnel local pour personnes âgées et personnel soignant."
     />
     <style>
       :root {
@@ -311,17 +311,16 @@
   </head>
   <body>
     <nav class="nav" aria-label="Navigation">
-      <div class="brand">Brin de Présence</div>
+      <div class="brand">Causette</div>
       <a href="index.html">Retour à la page projet</a>
     </nav>
 
     <main>
       <section class="hero">
         <div>
-          <p class="eyebrow">Recrutement projet pédagogique</p>
           <h1>Rejoindre une équipe qui conçoit une IA utile aux soignants.</h1>
           <p class="lead">
-            Brin de Présence recherche des profils complémentaires pour concevoir un assistant conversationnel local destiné aux personnes âgées isolées et aux équipes d’EHPAD.
+            Causette recherche des profils complémentaires pour concevoir un assistant conversationnel local destiné aux personnes âgées isolées et aux équipes d’EHPAD.
           </p>
         </div>
         <aside class="panel">
@@ -400,10 +399,7 @@
             Le recrutement est conduit via cette page web dédiée, complétée par des échanges en réunion physique ou en visioconférence.
           </p>
           <p>
-            Pour un rendu pédagogique, cette page démontre que le projet dispose d’un support clair pour attirer, informer et orienter de nouveaux membres.
-          </p>
-          <p>
-            Adresse de contact à configurer : <strong id="recruitment-email">recrutement@brin-de-presence.example</strong>
+            Adresse de contact : <strong id="recruitment-email">antoine.baesen@epitech.eu</strong>
           </p>
         </div>
       </section>
@@ -411,10 +407,6 @@
       <section class="section">
         <form class="form" id="application-form">
           <h2>Envoyer une candidature</h2>
-          <p class="hint">
-            Ce formulaire fonctionne sur GitHub Pages sans serveur : il ouvre un email prérempli dans le client mail du candidat. L’adresse doit être remplacée par l’adresse réelle de l’équipe.
-          </p>
-
           <div class="field">
             <label for="name">Nom</label>
             <input id="name" name="name" autocomplete="name" required />
@@ -447,10 +439,6 @@
         </form>
       </section>
     </main>
-
-    <footer>
-      Brin de Présence - Page de recrutement créée pour répondre à la contrainte de promotion et de constitution d’équipe du projet pédagogique.
-    </footer>
     <script>
       const recruitmentEmail = "antoine.baesen@epitech.eu";
       const form = document.querySelector("#application-form");
@@ -464,11 +452,11 @@
         const role = data.get("role");
         const message = data.get("message").trim();
 
-        const subject = `Candidature Brin de Présence - ${role}`;
+        const subject = `Candidature Causette - ${role}`;
         const body = [
           "Bonjour,",
           "",
-          "Je souhaite candidater au projet Brin de Présence.",
+          "Je souhaite candidater au projet Causette.",
           "",
           `Nom : ${name}`,
           `Email : ${email}`,
