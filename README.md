@@ -6,7 +6,7 @@
 
 ## 2. Présentation du projet
 
-![Concept Causette](imgs/causette_concept.png)
+![Concept Causette](docs/imgs/causette_concept.png)
 
 Avec le vieillissement de la population, l’isolement des personnes âgées devient un enjeu social majeur. De nombreuses personnes vivant seules ou en établissement manquent de moments d’échange, d’écoute et de réconfort au quotidien.
 
@@ -16,7 +16,7 @@ Le projet ne vise pas à remplacer les proches, les aidants ou les professionnel
 
 Causette se distingue par trois priorités : l’accessibilité, la confidentialité et l’éthique. Son interface est pensée pour être facile à utiliser, son architecture protège les données sensibles, et ses limites sont clairement définies afin de garantir une utilisation responsable.
 
-![Schéma conceptuel de Causette](imgs/causette_accompagnement.png)
+![Schéma conceptuel de Causette](docs/imgs/causette_accompagnement.png)
 
 ## 3. PBS
 
